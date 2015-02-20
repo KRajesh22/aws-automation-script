@@ -21,8 +21,6 @@ export JAVA_HOME=/usr/local/java/jre1.7.0_75  # have to edit ec2-cmd file to dis
 
 EC2_BIN=$EC2_HOME/bin
 # store the certificates and private key to your amazon account
-#MY_CERT='/var/www/html/qgrid/script/awsAuthKeys/cert-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
-#MY_KEY='/var/www/html/qgrid/script/awsAuthKeys/pk-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
 MY_CERT='/path to pem file.pem'
 MY_KEY='/path to pem file.pem'
 MY_INSTANCE_ID='i-something' #id of instances of which you wanna take snapshot,can supply more than one.
