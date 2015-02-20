@@ -23,10 +23,10 @@ EC2_BIN=$EC2_HOME/bin
 # store the certificates and private key to your amazon account
 #MY_CERT='/var/www/html/qgrid/script/awsAuthKeys/cert-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
 #MY_KEY='/var/www/html/qgrid/script/awsAuthKeys/pk-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
-MY_CERT='/ebs/qgrid/script/awsAuthKeys/cert-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
-MY_KEY='/ebs/qgrid/script/awsAuthKeys/pk-J7BQ2RB2GL4X2JCIYOOMV2EKOG3JYCYQ.pem'
-MY_INSTANCE_ID='i-c60c553d' #id of instances of which you wanna take snapshot,can supply more than one.
-VOLUMES="vol-b5aa36fe"  #id of volumes of which you wanna take snapshot, can supply more than one also 
+MY_CERT='/path to pem file.pem'
+MY_KEY='/path to pem file.pem'
+MY_INSTANCE_ID='i-something' #id of instances of which you wanna take snapshot,can supply more than one.
+VOLUMES="vol-something"  #id of volumes of which you wanna take snapshot, can supply more than one also 
 TAG="Testing Tag"   #tag to add with snapshot description
 DELETE_OLDER_THAN=2
 sync
